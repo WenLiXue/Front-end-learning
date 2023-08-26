@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单常用控件</title>
+</head>
+<body>
+<form action="https://search.jd.com/search" target="_blank">
+<!--主要信息-->
+    <fieldset>
+        <legend>主要信息</legend>
+        <!--    文本输入框-->
+        <label for="zhanghu">账户：</label>
+        <input id="zhanghu" type="text" name="account" value="zhangsan" maxlength="10"> <br>
+        <!--        密码输入框-->
+        <label for="mima">密码：</label>
+        <input  id ="mima" type="password" name="pwd" value="123" maxlength="6"> <br>
+        性别:
+        <!--    单选框-->
+        <input type="radio" name="gender" value="male" id ="nan">
+        <label for="nan">男</label>
+        <input type="radio" name="gender" value="female" id="nv">
+        <label for="nv">女</label>
+        <br>
+    </fieldset>
+<!--    附加信息-->
+    <fieldset>
+        <legend>附加信息</legend>
+        爱好：
+        <!--    复选框-->
+        <label >
+            <input type="checkbox" name="hobby" value="smoke" checked> 抽烟
+        </label>
+        <label >
+            <input type="checkbox" name="hobby" value="drink" checked> 喝酒
+
+        </label>
+        <label >
+            <input type="checkbox" name="hobby" value="perm"> 烫头
+        </label>
+        <!--    隐藏域-->
+        <input type="hidden" name="tag" value="123">
+        <br>
+        其他：
+        <!--    文本域-->
+        <textarea name="other" cols="22" rows="3"></textarea> <br>
+        籍贯:
+        <select name="place">
+            <option value="粤">广东</option>
+            <option value="冀">河北</option>
+            <option value="苏">江苏</option>
+            <option value="皖" >安徽</option>
+
+        </select><br>
+    </fieldset>
+
+<!--    确认第一种写法-->
+<!--    <button>确认</button>-->
+<!--    注意确认的按钮不要加name属性-->
+<!--    第二种写法 -->
+    <input type="submit" value="确认">
+<!--    重置按钮-->
+    <button type="reset">重置</button>
+<!--    普通按钮：按钮不会引起提交 或信息修改-->
+<!--    第一种写法-->
+    <button type="button"> 检测账户是否被注册</button>
+<!--    第二种写法-->
+<!--    <input type="button" value="检测账户是否被注册">-->
+</form>
+</body>
+</html>
