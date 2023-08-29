@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通用兄弟选择器</title>
+<!--   div后面的所有p都统一格式-->
+    <style>
+        div~p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>123</p>
+    <div>1234</div>
+    <span>12312</span>
+    <p>123</p>
+    <span>12312</span>
+    <p>123</p>
+</body>
+</html>

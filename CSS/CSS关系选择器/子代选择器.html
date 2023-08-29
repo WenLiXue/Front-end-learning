@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>子代选择器</title>
+<!--    只会给div的直接后代p规定元素-->
+    <style>
+        div>p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>大叫好</p>
+        <p>大叫好</p>
+        <p>大叫好</p>
+
+        <li>123 <span>wwqeqwe  <p>大叫好</p></span></li>
+
+    </div>
+</body>
+</html>

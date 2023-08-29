@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+<!--    格式如下所示 表示ul 子标签li包括本身外的所有标签的格式都统一 类似是一个家族-->
+    <style>
+        ul li{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>qweqwe</li>
+        <li>qweqwe</li>
+        <li>qweqwe</li>
+        <li>qweqwe</li>
+        <li><ol>
+            <li>123123</li>
+            <li>123123</li>
+            <li>123123</li>
+            <li>123123</li>
+        </ol></li>
+    </ul>
+</body>
+</html>
