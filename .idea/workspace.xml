@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be8c635d-fa98-4db6-acbf-7f08f6501006" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/HTML学习/HTML5.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习/HTML5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/Picture/tutu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/tutu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/Picture/卡莎.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/卡莎.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/Picture/美杜莎.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/美杜莎.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/Picture/萧炎.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Picture/萧炎.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/框架标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习/框架标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/超链接_跳转文件.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习/超链接_跳转文件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/超链接_跳转锚点.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习/超链接_跳转锚点.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML学习/超链接_跳转页面.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML学习/超链接_跳转页面.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,27 +26,52 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
+  "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2UeyR3kTMS4dwoNzWz2pyelgcYe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Study/CODE/WebStormCode/Front-end-learning/CSS/CSS盒子模型",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\CODE\WebStormCode\Front-end-learning\CSS\CSS盒子模型" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Study\CODE\WebStormCode\Front-end-learning" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript 调试.定位.html">
+    <configuration name="CSS弹性盒子模型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-end-learning/CSS/CSS盒子模型/CSS弹性盒子模型.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Front-end-learning/CSS/定位/定位.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript 调试.定位.html" />
+        <item itemvalue="JavaScript 调试.CSS弹性盒子模型.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,6 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1693314330635</updated>
       <workItem from="1693314333940" duration="21000" />
+      <workItem from="1693385928637" duration="75000" />
+      <workItem from="1693460594161" duration="29000" />
+      <workItem from="1693788618694" duration="5094000" />
     </task>
     <servers />
   </component>

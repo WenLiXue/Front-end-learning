@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container{
+            width: 500px;
+            background-color: blueviolet;
+            overflow: hidden;
+            clear: both;
+        }
+        .container::after{
+            overflow: hidden;
+            clear:both;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            margin: 5px;
+            float: left;
+        }
+        .box1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 5px;
+            /*清除浮动*/
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box1"></div>
+    </div>
+    <div class="box1"></div>
+
+</body>
+</html>
